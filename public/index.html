@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Finance Tracker</h1>
+        <h2>Add Income</h2>
+        <div class="income">
+            
+            <input type="text" id="incomeSource" placeholder="Income Source">
+            <input type="number" id="incomeValue" placeholder="Income Value">
+            <input type="date" id="incomeDate">
+            <button type="button" id=   "addIncome">Add Income</button>
+        </div>
+        <h2>Add Expense</h2>
+        <div  class="Expense">
+           
+            <input type="text" id="expenseSource" placeholder="Expense Source">
+            <input type="number" id="expenseValue" placeholder="Expense Value">
+            <input type="date" id="expenseDate">
+            <button id="addExpense">Add Expense</button>
+        </div>
+        
+        <div class="Target">
+            
+            <input type="number" id="savingTarget" placeholder="Saving Target Amount">
+            <input type="number" id="savingAmount" placeholder="Amount Saved">
+            <button id="setSaving">Set Saving Target</button>
+        </div>
+        <div id="output"></div>
+    </div>
+    <script src="/build/index.js" defer></script>
+</body>
+</html>
